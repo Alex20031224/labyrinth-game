@@ -13,7 +13,7 @@ const int END = 3;
 const int PLAYER = 4;
 
 Maze::Maze() {
-    // 初始化迷宫为墙壁
+    // 初始化迷宮為牆壁
     for (int y = 0; y < HEIGHT; y++) {
         for (int x = 0; x < WIDTH; x++) {
             maze[x][y] = WALL;
