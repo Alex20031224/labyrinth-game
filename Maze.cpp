@@ -125,11 +125,11 @@ void Maze::print() {
     for (int y = -1; y < HEIGHT + 1; y++) {
         for (int x = -1; x < WIDTH + 1; x++) {
             if (x == -1 || x == WIDTH || y == -1 || y == HEIGHT) {
-                cout << "██";
+                cout << "OO";
             } else {
                 switch (maze[x][y]) {
                     case WALL:
-                        cout << "██";
+                        cout << "OO";
                         break;
                     case PATH:
                         cout << "  ";
