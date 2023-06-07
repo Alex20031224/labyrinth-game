@@ -24,7 +24,6 @@ int main() {
 
         if (maze.isGameOver()) {
             cout << "恭喜你抵達終點！" << endl;
-            system("PAUSE"); 
             break;
         }
     }
