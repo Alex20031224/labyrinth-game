@@ -8,17 +8,16 @@ class Maze
 {
 public:
     Maze();
-    void generate(); //生成迷宫
-    void movePlayer(char direction); //移動玩家
-    void print(); //輸出迷宮
-    bool isGameOver(); //檢查遊戲是否結束
-    void generateMaze(int startX, int startY, int endX, int endY); //
+    void movePlayer(char direction); 
+    void print(); 
+    bool isGameOver();
+    void generateMaze(int startX, int startY, int endX, int endY); //生成迷宫
 
 private:
     int maze[WIDTH][HEIGHT];
-    int startX, startY; //起始座標
-    int endX, endY; //終點座標
-    int playerX, playerY; //玩家位置
+    int startX, startY;
+    int endX, endY;
+    int playerX, playerY; 
 
 
 };
