@@ -11,7 +11,7 @@ public:
     void movePlayer(char direction); 
     void print(); 
     bool isGameOver();
-    void generateMaze(int startX, int startY, int endX, int endY); //生成迷宫
+    void generateMaze(int startX, int startY, int endX, int endY);
 
 private:
     int maze[WIDTH][HEIGHT];
