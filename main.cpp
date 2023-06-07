@@ -1,10 +1,3 @@
-//
-//  main.cpp
-//  Object-Oriented Programming and Internships 小專題
-//
-//  Created by Alex on 2023/6/6.
-//
-
 #include "Maze.h"
 #include <iostream>
 
